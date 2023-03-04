@@ -6,6 +6,10 @@ const doctorSchema =  new mongoose.Schema({
 		min:3,
 		max:20,
 	},
+	profile:{
+		type:String,
+		default:""
+	},
 	password:{
 		type:String,
 		default:""
